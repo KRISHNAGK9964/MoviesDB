@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { movies } from '../getMovies'
+import './Banner.css'
 export default class Banner extends Component {
     render() {
         // console.log(movies.results[0]);
@@ -13,6 +14,7 @@ export default class Banner extends Component {
               </div>
             ) : (
               <div className="card banner-card">
+                <div className="filter"></div>
                 <img
                   src={`https://image.tmdb.org/t/p/original${movie.backdrop_path}`}
                   className="card-img-top banner-img"
