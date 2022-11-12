@@ -4,7 +4,7 @@ import "./Navbar.css";
 export default class Navbar extends Component {
   render() {
     return (
-      <div className="navbar">
+      <div className="navbar ">
         <div className="navbar__links">
           <Link style={{ textDecoration: "none" }} to={"/"}>
             <p>Movies</p>

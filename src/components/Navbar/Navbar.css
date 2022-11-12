@@ -3,6 +3,7 @@
     height: 5rem;
     padding-top: 1rem;
     background: rgba(38, 38, 38 , 1);
+    background-color: var(--bgcolor);
     display: flex;
     align-items: center;
     position: fixed;
